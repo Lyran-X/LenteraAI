@@ -77,7 +77,7 @@ flowchart LR
     RAG --> VDB[(ChromaDB Local Vector DB)]
     RAG --> LLM
     API --> FE
-
+```
 ## Folder Structure
 project-root/
 ├── app/
