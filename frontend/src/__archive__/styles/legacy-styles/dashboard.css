@@ -1,0 +1,17 @@
+.dashboard-layout {
+  min-height: 100vh;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.dashboard-layout .dashboard-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.dashboard-layout .dashboard-panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}

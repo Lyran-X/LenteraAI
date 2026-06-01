@@ -1,0 +1,101 @@
+﻿# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+.venv_old/
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Python Build / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Pytest / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Alembic / Database Local Files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep Alembic migration files tracked
+# Do not ignore alembic/
+
+# =========================
+# ChromaDB Local Vector Storage
+# =========================
+storage/chroma/
+.chroma/
+
+# =========================
+# Uploads / User Files
+# =========================
+uploads/
+uploads/avatars/
+uploads/documents/
+
+# =========================
+# Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+.cache/
+
+# =========================
+# Local Documentation Assets
+# =========================
+# Keep docs and screenshots tracked if needed.
+# If screenshot files are too large, ignore them manually later.
