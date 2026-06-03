@@ -5,7 +5,7 @@ LenteraAI is an AI-powered smart learning companion designed to help students le
 This project is developed as a functional local prototype for a 2026 capstone project.
 
 ## 📸 Demo prototype
-[![Landing Page](frontend/src/asset/demo_lenteraAI.png)](https://youtu.be/IWPoa7dbVUE?si=LVqnyiCHt9CNZ25P)
+[![Landing Page](frontend/src/assets/demo_lenteraAI.png)](https://youtu.be/IWPoa7dbVUE?si=LVqnyiCHt9CNZ25P)
 click the picture
 
 
