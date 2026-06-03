@@ -77,38 +77,7 @@ flowchart LR
     RAG --> VDB[(ChromaDB Local Vector DB)]
     RAG --> LLM
     API --> FE
-
-## Folder Structure
-project-root/
-├── app/
-│   ├── api/
-│   │   ├── routes/
-│   │   └── router.py
-│   ├── auth/
-│   ├── core/
-│   ├── db/
-│   ├── models/
-│   ├── rag/
-│   ├── schemas/
-│   └── services/
-├── frontend/
-│   └── src/
-│       ├── assets/
-│       ├── components/
-│       ├── landing_project/
-│       ├── layouts/
-│       ├── router/
-│       ├── services/
-│       ├── stores/
-│       └── views/
-├── alembic/
-├── storage/
-│   └── chroma/
-├── uploads/
-├── requirements.txt
-├── .env.example
-├── main.py
-└── README.md
+```
 
 ## Important Directories
 frontend/src/views — main dashboard pages.
